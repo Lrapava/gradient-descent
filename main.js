@@ -31,7 +31,6 @@ while (Math.abs(delta_m) > 10**-10 || Math.abs(delta_b) > 10**-10) {
 console.log("Result: " + m.toFixed(3) + " " + b.toFixed(3))
 
 // cost table for different values of m and b
-
 let table = [...Array(11).keys()].map(
 	x => [...Array(11).keys()].map(y => cost(x*0.1, y*0.1, data)).reduce((a, b) => a+b.toFixed(3)+" ", "")
 ).reduce((a, b) => a+b+"\n", "")
