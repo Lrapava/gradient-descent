@@ -41,7 +41,7 @@ int main() {
 
 	// data points
 	vector <pair <double, double>> data = {
-		{0, 0}, {1, 1}, {2, 2}, {3, 3}, {4, 4}, {5, 5}, {6, 6}
+		{0, 1}, {1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 6}, {6, 7}
 	};
 
 	// model: y = mx + b; alpha - learning rate
@@ -57,7 +57,7 @@ int main() {
 	}
 
 	// outputting result 
-	cout << "res: " << b << " " << m << "\n";
+	cout << "Result: " << m << " " << b << "\n";
 
 	// cost table for different values of m and b
 	for (double i = 0; i <= 1; i += 0.1) {

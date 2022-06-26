@@ -1,2 +1,2 @@
 # gradient-descent
-My first attempt to implement gradient descent in C++
+My first attempts to implement gradient descent in C++ and Python
